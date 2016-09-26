@@ -1,0 +1,39 @@
+﻿body
+{
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: chartreuse;
+    background-color: papayawhip;
+}
+
+.highlight {
+    background-image: url(https://media.giphy.com/media/yEo04uvUwy5y0/giphy.gif);
+    background-size: cover;
+    padding: 100px;
+    color: white;
+}
+
+.grid {
+    font-size: 0;
+}
+
+.grid > div {
+    display: inline-block;
+    font-size: medium;
+}
+
+.grid-2 > div {
+    width: 50%;
+}
+
+.grid-3 > div {
+    width: 33%;
+}
